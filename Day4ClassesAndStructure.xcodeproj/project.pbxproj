@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9BBF902D2214DB900075E045 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF902C2214DB900075E045 /* main.swift */; };
+		9BBF90342214E88A0075E045 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF90332214E88A0075E045 /* Student.swift */; };
+		9BBF90362214E9430075E045 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF90352214E9430075E045 /* Person.swift */; };
+		9BBF90382214EA2C0075E045 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF90372214EA2C0075E045 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9BBF90292214DB900075E045 /* Day4ClassesAndStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day4ClassesAndStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBF902C2214DB900075E045 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BBF90332214E88A0075E045 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9BBF90352214E9430075E045 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9BBF90372214EA2C0075E045 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				9BBF902C2214DB900075E045 /* main.swift */,
+				9BBF90332214E88A0075E045 /* Student.swift */,
+				9BBF90352214E9430075E045 /* Person.swift */,
+				9BBF90372214EA2C0075E045 /* Car.swift */,
 			);
 			path = Day4ClassesAndStructure;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBF90362214E9430075E045 /* Person.swift in Sources */,
 				9BBF902D2214DB900075E045 /* main.swift in Sources */,
+				9BBF90382214EA2C0075E045 /* Car.swift in Sources */,
+				9BBF90342214E88A0075E045 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
